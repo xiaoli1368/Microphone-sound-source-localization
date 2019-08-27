@@ -2,14 +2,7 @@
 
 [![](https://img.shields.io/badge/Environment-Matlab-blue)](<https://github.com/xiaoli1368/Microphone-sound-source-localization>)  [![](https://img.shields.io/badge/Size-15.3Mb-orange)](<https://github.com/xiaoli1368/Microphone-sound-source-localization>)  [![](https://img.shields.io/badge/License-MIT-brightgreen)](<https://github.com/xiaoli1368/Microphone-sound-source-localization>)
 
-当前项目所做出的工作是基本上实现了TDOA的测角的功能，主要由以下两个步骤实现：
-
-- 首先，利用GCC-PHAT估计出各个通道之间的时延
-- 然后，利用SRP-PHAT进行声源位置的估计定位
-
-其中在第二步的过程中，使用到了空域收缩的方法，即使用球坐标进行搜索，逐渐缩小搜索的范围（指角度），通过计算每个角度方向上的SRP总和来衡量该方向是否应该被收缩域包括。但是对于距离的判定出现了较大的误差，因此当前只能实现测角。对于距离定位，还需要对几何以及SRP的原理进行系统的分析才可以完成。
-
-除此之外，也使用了一些基本的数值计算的方法来进行求解，结果也是能够实现角度定位，但是难以实现距离定位。更加精确的定位还需要进行算法层面上的进一步改进。
+当前项目基本上实现了基于麦克风阵列的TDOA-SRP的声源定位功能仿真，整体代码基于Matlab进行开发，能够较好的进行定向，但是在定距方面尚有不足。
 
 ## 目录
 
@@ -19,6 +12,17 @@
 - [License](#license)
 
 ## 介绍
+
+测角的功能，
+
+主要由以下两个步骤实现：
+
+- 首先，利用GCC-PHAT估计出各个通道之间的时延
+- 然后，利用SRP-PHAT进行声源位置的估计定位
+
+其中在第二步的过程中，使用到了空域收缩的方法，即使用球坐标进行搜索，逐渐缩小搜索的范围（指角度），通过计算每个角度方向上的SRP总和来衡量该方向是否应该被收缩域包括。但是对于距离的判定出现了较大的误差，因此当前只能实现测角。对于距离定位，还需要对几何以及SRP的原理进行系统的分析才可以完成。
+
+除此之外，也使用了一些基本的数值计算的方法来进行求解，结果也是能够实现角度定位，但是难以实现距离定位。更加精确的定位还需要进行算法层面上的进一步改进。
 
 ##  使用说明
 
