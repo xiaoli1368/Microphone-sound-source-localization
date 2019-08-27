@@ -2,6 +2,7 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
+[![](https://img.shields.io/badge/readme%20style-standard-brightgreen)](http://baidu.com)
 
 当前文件所做出的工作是基本上实现了TDOA的测角的功能，主要由以下两个步骤实现：
 - 首先，利用GCC-PHAT估计出各个通道之间的时延
