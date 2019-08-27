@@ -1,6 +1,6 @@
 # 麦克风声源定位
 
-[![](https://img.shields.io/badge/Environment-Matlab-blue)](<https://github.com/xiaoli1368/Microphone-sound-source-localization>)[![](https://img.shields.io/badge/Size-15.3Mb-orange)](<https://github.com/xiaoli1368/Microphone-sound-source-localization>)[![](https://img.shields.io/badge/License-MIT-brightgreen)](<https://github.com/xiaoli1368/Microphone-sound-source-localization>)
+[![](https://img.shields.io/badge/Environment-Matlab-blue)](<https://github.com/xiaoli1368/Microphone-sound-source-localization>)  [![](https://img.shields.io/badge/Size-15.3Mb-orange)](<https://github.com/xiaoli1368/Microphone-sound-source-localization>)  [![](https://img.shields.io/badge/License-MIT-brightgreen)](<https://github.com/xiaoli1368/Microphone-sound-source-localization>)
 
 当前项目所做出的工作是基本上实现了TDOA的测角的功能，主要由以下两个步骤实现：
 
