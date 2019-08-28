@@ -2,7 +2,7 @@ function y = my_gcc_all(frameNum, frameLen, s_ideal_enframe)
 % Note:
 %       This function is used to calculate the GCC-ALL function.
 % Usage:
-%       y = my_gcc_all(frameNum, frameLen, s1, s2, s3, s4)
+%       y = my_gcc_all(frameNum, frameLen, s_ideal_enframe)
 % Input arguments:
 %       frameNum        : the number of frames of every channel data
 %       frameLen        : the length of each frame
