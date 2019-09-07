@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/badge/Environment-Matlab-blue)](<https://github.com/xiaoli1368/Microphone-sound-source-localization>)  [![](https://img.shields.io/badge/Size-15.3Mb-orange)](<https://github.com/xiaoli1368/Microphone-sound-source-localization>)  [![](https://img.shields.io/badge/License-MIT-brightgreen)](<https://github.com/xiaoli1368/Microphone-sound-source-localization>)
 
-当前项目基本上实现了基于麦克风阵列的TDOA-SRP的声源定位功能仿真，整体代码基于Matlab进行开发，能够较好的进行定向，但是在定距方面尚有不足。
+当前项目基本上实现了基于麦克风阵列的TDOA-SRP的声源定位功能仿真，整体代码基于Matlab进行开发，能够较好地进行定向，但是在定距方面尚有不足。
 
 ## 目录
 
