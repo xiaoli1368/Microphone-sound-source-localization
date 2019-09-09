@@ -13,7 +13,9 @@ The current project basically realizes the sound source positioning function sim
 
 ## Introduction
 
-It is mainly implemented by the following two steps:
+First of all, it needs to be explained that the current code only realizes functional simulation, which is helpful to the understanding of algorithm principle. Due to the lack of microphone array sensors in practice, the raw data used in this example was obtained from the phone recording. At the same time, considering that it is impossible to achieve absolute synchronous recording even if multiple mobile phones are used, the delay and noise addition of one voice signal are directly used to replace the signals of other channels, thus obtaining the original data used in the simulation.
+
+Tdoa-srp algorithm is mainly implemented by the following two steps:
 
 - first, time delays between channels are estimated using GCC-PHAT.
 - then, srp-phat is used to estimate location of sound source.
